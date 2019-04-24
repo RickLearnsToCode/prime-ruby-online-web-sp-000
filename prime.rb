@@ -6,8 +6,7 @@ when 2
   return true
 when <= 0
   return false
-else  
+else
   test_range.none? {|i| int % i == 0}
 end
 end
-
