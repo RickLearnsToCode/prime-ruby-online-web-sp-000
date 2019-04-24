@@ -1,7 +1,7 @@
 # Add  code here!
 def prime(int)
   test_range = (2...int).to_a
-case 
+case
 when int == 2
   return true
 when int < 0
