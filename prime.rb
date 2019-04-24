@@ -4,7 +4,7 @@ def prime?(int)
 case
 when int == 2
   return true
-when int < 0
+when int <= 0
   return false
 else
   test_range.none? {|i| int % i == 0}
